@@ -1,0 +1,57 @@
+<svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient definition -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F0FF"/>
+      <stop offset="100%" stop-color="#AD00FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Centering and scaling the robot icon inside the 46x46 viewport -->
+  <g id="robot-icon" transform="translate(-7.44, -6.44) scale(1.28)">
+    <!-- Animated Breathing Robot Body -->
+    <g id="robot-body">
+      <animateTransform 
+        attributeName="transform" 
+        type="translate" 
+        values="0 0; 0 -1.2; 0 0" 
+        dur="4s" 
+        repeatCount="indefinite"
+      />
+      <!-- Ears -->
+      <path d="M 8.5,24.5 V 29.5" stroke="url(#paint0_linear)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M 37.5,24.5 V 29.5" stroke="url(#paint0_linear)" stroke-width="3" stroke-linecap="round"/>
+      
+      <!-- Antenna -->
+      <path d="M 23,18 V 13" stroke="url(#paint0_linear)" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="23" cy="11" r="2.5" fill="url(#paint0_linear)"/>
+      
+      <!-- Robot Head Outline (Speech Bubble shape) -->
+      <path d="M 18,18 H 28 A 7,7 0 0 1 35,25 V 31 L 36,37 L 30,35 A 7,7 0 0 1 28,36 H 18 A 7,7 0 0 1 11,29 V 25 A 7,7 0 0 1 18,18 Z" stroke="url(#paint0_linear)" stroke-width="2.5" stroke-linejoin="round" fill="none"/>
+      
+      <!-- Blinking Eyes -->
+      <path d="M 17,28 A 2,2 0 0 1 21,28" stroke="#00d5ff" stroke-width="2.5" stroke-linecap="round" fill="none">
+        <animate attributeName="d" dur="5s" repeatCount="indefinite" values="M 17,28 A 2,2 0 0 1 21,28; M 17,28 A 2,2 0 0 1 21,28; M 17,28 H 21; M 17,28 A 2,2 0 0 1 21,28; M 17,28 A 2,2 0 0 1 21,28" keyTimes="0; 0.88; 0.90; 0.92; 1" />
+      </path>
+      <path d="M 25,28 A 2,2 0 0 1 29,28" stroke="#00d5ff" stroke-width="2.5" stroke-linecap="round" fill="none">
+        <animate attributeName="d" dur="5s" repeatCount="indefinite" values="M 25,28 A 2,2 0 0 1 29,28; M 25,28 A 2,2 0 0 1 29,28; M 25,28 H 29; M 25,28 A 2,2 0 0 1 29,28; M 25,28 A 2,2 0 0 1 29,28" keyTimes="0; 0.88; 0.90; 0.92; 1" />
+      </path>
+    </g>
+
+    <!-- Animated Twinkling/Orbiting Sparkle Stars -->
+    <g id="sparkle-stars">
+      <animateTransform 
+        attributeName="transform" 
+        type="rotate" 
+        from="0 34 12" 
+        to="360 34 12" 
+        dur="10s" 
+        repeatCount="indefinite"
+      />
+      <!-- Large Star (Shifted left to prevent viewport overlap) -->
+      <path d="M 34 7.5 Q 34 12 38.5 12 Q 34 12 34 16.5 Q 34 12 29.5 12 Q 34 12 34 7.5 Z" fill="url(#paint0_linear)"/>
+      <!-- Small Star (Shifted left to prevent viewport overlap) -->
+      <path d="M 39 14.5 Q 39 17 41.5 17 Q 39 17 39 19.5 Q 39 17 36.5 17 Q 39 17 39 14.5 Z" fill="url(#paint0_linear)"/>
+    </g>
+  </g>
+</svg>
