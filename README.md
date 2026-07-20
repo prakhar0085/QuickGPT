@@ -129,27 +129,7 @@ The app will be running locally — visit the URL shown in your terminal (typica
 | Pro | $20 | 500 | 500 text + 200 image generations, priority support |
 | Premium | $30 | 1000 | 1000 text + 500 image generations, dedicated support |
 
----
 
-## 📌 Roadmap
 
-- [ ] Add voice-based chat input
-- [ ] Multi-language support
-- [ ] Export chat as PDF
-- [ ] Admin dashboard for analytics
 
----
 
-## 📄 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
-
----
-
-## 👩‍💻 Author
-
-**App Development and Documentation — Sanyogita Singh**
-
----
-
-<p align="center">Made with 💜 and a lot of debugging</p>
