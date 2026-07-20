@@ -2,7 +2,7 @@
 
 > An intelligent AI assistant web app — a ChatGPT-inspired clone built with the MERN stack, featuring real-time text & image generation, secure authentication, and a credit-based subscription system.
 
-🔗 **Live Demo:** [quick-gpt-cyan.vercel.app](https://quick-gpt-cyan.vercel.app/)
+
 
 ---
 
