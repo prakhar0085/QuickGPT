@@ -1,6 +1,6 @@
 # 🤖 QuickGPT
 
-> An intelligent AI assistant web app — a ChatGPT-inspired clone built with the MERN stack, featuring real-time text & image generation, secure authentication, and a credit-based subscription system.
+> An intelligent AI assistant web app a ChatGPT-inspired clone built with the MERN stack, featuring real-time text & image generation, secure authentication, and a credit-based subscription system.
 
 
 
